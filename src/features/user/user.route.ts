@@ -1,4 +1,5 @@
 
+// src\features\user\user.route.ts
 import { Router } from "express";
 import validateRequest from "../../shared/middlewares/validateRequest";
 import { UserController } from "./user.controller";
@@ -27,3 +28,5 @@ router.get(
   validateRequest(UserValidation.getAllUsersQuerySchema),
   UserController.getAllUser
 );
+
+export const userRoutes = router;

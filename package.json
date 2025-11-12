@@ -1,5 +1,5 @@
 {
-  "name": "backend-template",
+  "name": "backend",
   "version": "1.0.1",
   "description": "Backend Template with Express, MongoDB, Redis, and Socket.IO",
   "main": "dist/server.js",

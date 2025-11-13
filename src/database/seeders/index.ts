@@ -1,32 +1,28 @@
-import colors from 'colors';import config from '../../config';
-import { logger } from '../../shared/utils/logger';
-import { User } from '../../features/user/user.model';
-import { USER_ROLE } from "../../shared/enums/user";
+// src/db/seeds/index.ts
+import colors from "colors";
+import { logger } from "../../shared/utils/logger";
+import seedAdmin from "./seedAdmin";
+import seedAttorney from "./seedAttorney";
+import seedPracticeArea from "./seedPracticeArea";
 
-const superUser = {
-  fullName: config.admin.name,
-  role: USER_ROLE.ADMIN,
-  email: config.admin.email,
-  password: config.admin.password,
-  phone_number: "",
-  verified: true,
-  isOnline: true,
-  isSubscribed: true,
-};
-
-const seedAdmin = async () => {
+const runSeeders = async () => {
   try {
-    const isExistSuperAdmin = await User.findOne({ role: USER_ROLE.ADMIN });
+    logger.info(colors.cyan("🌱 Starting database seeding..."));
 
-    if (!isExistSuperAdmin) {
-      await User.create(superUser);
-      logger.info(colors.green('✔ admin created successfully!'));
-    } else {
-      console.log('Admin already exists.');
-    }
+    // Seed admin user
+    await seedAdmin();
+
+    // Seed practice areas
+    await seedPracticeArea();
+
+    // Seed attorney
+    await seedAttorney();
+
+    logger.info(colors.green("✔ Database seeding completed successfully!"));
   } catch (error) {
-    console.error('Error creating admin:', error);
+    logger.error(colors.red("❌ Error during database seeding:"), error);
+    process.exit(1);
   }
 };
 
-export default seedAdmin;
+export default runSeeders;

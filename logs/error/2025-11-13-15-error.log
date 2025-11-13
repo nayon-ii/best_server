@@ -1,0 +1,235 @@
+13/11/2025 09:15:11 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "phone"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "profileImage"
+    ],
+    "message": "Invalid image URL"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "bannerImage"
+    ],
+    "message": "Invalid image URL"
+  }
+]
+ZodError: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "phone"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "profileImage"
+    ],
+    "message": "Invalid image URL"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "bannerImage"
+    ],
+    "message": "Invalid image URL"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\fileUploadHandler.ts:405:9
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {"name":"ZodError"}
+13/11/2025 09:15:11 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/attorneys 400 - 35.529 ms
+13/11/2025 09:16:35 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "profileImage"
+    ],
+    "message": "Invalid image URL"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "bannerImage"
+    ],
+    "message": "Invalid image URL"
+  }
+]
+ZodError: [
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "profileImage"
+    ],
+    "message": "Invalid image URL"
+  },
+  {
+    "code": "custom",
+    "path": [
+      "body",
+      "bannerImage"
+    ],
+    "message": "Invalid image URL"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\fileUploadHandler.ts:405:9
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {"name":"ZodError"}
+13/11/2025 09:16:35 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/attorneys 400 - 25.231 ms
+13/11/2025 09:18:33 [nrb-nayon] ERROR: 127.0.0.1 - GET /favicon.ico 404 - 1.778 ms
+13/11/2025 09:25:39 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "code": "invalid_value",
+    "values": [
+      "active",
+      "inactive",
+      "waiting",
+      "pending",
+      "suspended",
+      "deleted",
+      "approved",
+      "rejected",
+      "blocked",
+      "archived",
+      "success",
+      "error",
+      "info"
+    ],
+    "path": [
+      "query",
+      "status"
+    ],
+    "message": "Invalid option: expected one of \"active\"|\"inactive\"|\"waiting\"|\"pending\"|\"suspended\"|\"deleted\"|\"approved\"|\"rejected\"|\"blocked\"|\"archived\"|\"success\"|\"error\"|\"info\""
+  }
+]
+ZodError: [
+  {
+    "code": "invalid_value",
+    "values": [
+      "active",
+      "inactive",
+      "waiting",
+      "pending",
+      "suspended",
+      "deleted",
+      "approved",
+      "rejected",
+      "blocked",
+      "archived",
+      "success",
+      "error",
+      "info"
+    ],
+    "path": [
+      "query",
+      "status"
+    ],
+    "message": "Invalid option: expected one of \"active\"|\"inactive\"|\"waiting\"|\"pending\"|\"suspended\"|\"deleted\"|\"approved\"|\"rejected\"|\"blocked\"|\"archived\"|\"success\"|\"error\"|\"info\""
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"name":"ZodError"}
+13/11/2025 09:25:39 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/attorneys?searchTerm=John&status=ACTIVE&page=1&limit=10&sortBy=name&sortOrder=asc 400 - 7.472 ms
+13/11/2025 09:31:01 [nrb-nayon] ERROR: uncaughtException: fileUploadHandler is not defined
+ReferenceError: fileUploadHandler is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\practice_areas\practiceArea.route.ts:14:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+ReferenceError: fileUploadHandler is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\practice_areas\practiceArea.route.ts:14:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 15:31:01 GMT+0600 (Bangladesh Standard Time)","process":{"pid":25452,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":91979776,"heapTotal":61014016,"heapUsed":35942776,"external":20780056,"arrayBuffers":18435259}},"os":{"loadavg":[0,0,0],"uptime":53918.515},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\features\\practice_areas\\practiceArea.route.ts","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 09:31:01 [nrb-nayon] ERROR: Uncaught Exception: fileUploadHandler is not defined
+ReferenceError: fileUploadHandler is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\practice_areas\practiceArea.route.ts:14:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 09:52:54 [nrb-nayon] ERROR: uncaughtException: USER_ROLE is not defined
+ReferenceError: USER_ROLE is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\attorneys\attorney.validation.ts:70:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+ReferenceError: USER_ROLE is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\attorneys\attorney.validation.ts:70:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 15:52:54 GMT+0600 (Bangladesh Standard Time)","process":{"pid":7920,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":101011456,"heapTotal":62255104,"heapUsed":42535528,"external":20787455,"arrayBuffers":18453036}},"os":{"loadavg":[0,0,0],"uptime":55231.578},"trace":[{"column":24,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\features\\attorneys\\attorney.validation.ts","function":null,"line":70,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 09:52:54 [nrb-nayon] ERROR: Uncaught Exception: USER_ROLE is not defined
+ReferenceError: USER_ROLE is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\attorneys\attorney.validation.ts:70:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 09:58:53 [nrb-nayon] ERROR: [31m🤢 Failed to connect Database[39m

@@ -1,0 +1,274 @@
+13/11/2025 09:03:06 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:03:07 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:03:07 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:03:07 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:03:07 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:03:07 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:03:07 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:11:32 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:11:33 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:11:33 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:11:34 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:11:34 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:11:34 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:11:34 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:15:11 [nrb-nayon] INFO: Created subfolder: D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\uploads\images\attorneys
+13/11/2025 09:15:11 [nrb-nayon] INFO: Image size (0.02MB) below threshold, skipping optimization
+13/11/2025 09:15:11 [nrb-nayon] INFO: Image size (0.26MB) below threshold, skipping optimization
+13/11/2025 09:15:11 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:16:30 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:16:31 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:16:31 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:16:32 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:16:32 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:16:32 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:16:32 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:16:35 [nrb-nayon] INFO: Image size (0.02MB) below threshold, skipping optimization
+13/11/2025 09:16:35 [nrb-nayon] INFO: Image size (0.26MB) below threshold, skipping optimization
+13/11/2025 09:16:35 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:17:12 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:17:14 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:17:14 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:17:14 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:17:14 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:17:14 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:17:14 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:17:17 [nrb-nayon] INFO: Image size (0.02MB) below threshold, skipping optimization
+13/11/2025 09:17:17 [nrb-nayon] INFO: Image size (0.26MB) below threshold, skipping optimization
+13/11/2025 09:17:17 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:17:17 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/attorneys 201 - 134.107 ms
+13/11/2025 09:17:40 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:17:42 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:17:42 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:17:42 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:17:43 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:17:43 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:17:43 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:17:43 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:17:50 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:17:51 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:17:51 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:17:51 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:17:51 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:17:51 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:17:51 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:17:56 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:17:58 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:17:58 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:17:59 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:18:00 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:18:00 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:18:00 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:18:00 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:18:00 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:18:00 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:18:05 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:18:06 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:18:06 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:18:06 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:18:06 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:18:06 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:18:06 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:18:31 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025437178-81966409.png 200 - 2.848 ms
+13/11/2025 09:20:29 [nrb-nayon] INFO: Image size (0.02MB) below threshold, skipping optimization
+13/11/2025 09:20:29 [nrb-nayon] INFO: Image size (0.26MB) below threshold, skipping optimization
+13/11/2025 09:20:29 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:20:30 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/attorneys 201 - 139.315 ms
+13/11/2025 09:20:49 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys 200 - 90.779 ms
+13/11/2025 09:21:37 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys/6915a21d721d7bdcd9c52903 200 - 44.227 ms
+13/11/2025 09:22:54 [nrb-nayon] INFO: Image size (0.24MB) below threshold, skipping optimization
+13/11/2025 09:22:54 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:22:54 [nrb-nayon] INFO: 127.0.0.1 - PATCH /api/v1/attorneys/6915a21d721d7bdcd9c52903 200 - 121.612 ms
+13/11/2025 09:23:36 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_10_23_161057-1763025774645-307750696.png 200 - 0.862 ms
+13/11/2025 09:23:47 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:23:48 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:23:48 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:23:49 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:23:49 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:23:49 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:23:49 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:23:56 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:23:58 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:23:58 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:23:58 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:23:58 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:23:58 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:23:58 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:24:29 [nrb-nayon] INFO: 127.0.0.1 - DELETE /api/v1/attorneys/6915a21d721d7bdcd9c52903 200 - 60.105 ms
+13/11/2025 09:24:38 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys 200 - 105.511 ms
+13/11/2025 09:25:49 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?searchTerm=John&status=active&page=1&limit=10&sortBy=name&sortOrder=asc 200 - 102.389 ms
+13/11/2025 09:31:04 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:31:05 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:31:05 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:31:05 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:31:05 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:31:05 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:31:05 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:31:10 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:31:11 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:31:11 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:31:11 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:31:11 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:31:11 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:31:11 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:31:19 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:31:19 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:31:19 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:31:20 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:31:20 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:31:20 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:31:20 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:31:32 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:31:32 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:31:32 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:31:33 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:31:33 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:31:33 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:31:33 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:33:45 [nrb-nayon] INFO: Created subfolder: D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\uploads\images\practice
+13/11/2025 09:33:45 [nrb-nayon] INFO: Image size (0.02MB) below threshold, skipping optimization
+13/11/2025 09:33:45 [nrb-nayon] INFO: File upload completed successfully
+13/11/2025 09:33:45 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/practice-areas 201 - 102.093 ms
+13/11/2025 09:52:35 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:52:37 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:52:38 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:52:38 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:52:38 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:52:38 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:52:38 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:52:38 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:52:56 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:52:57 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:52:57 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:52:57 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:52:57 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:52:57 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:52:57 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:58:07 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:58:09 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:58:09 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:58:10 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:58:10 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:58:10 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:58:10 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:58:52 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:58:53 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:58:53 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:58:54 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:58:55 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:58:55 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+13/11/2025 09:58:55 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:58:55 [nrb-nayon] INFO: [32m✔ Attorney (Chauntelle Wood White) created successfully![39m
+13/11/2025 09:58:55 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+13/11/2025 09:58:55 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:58:55 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:58:55 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:58:55 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:58:58 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:59:00 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:59:00 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+13/11/2025 09:59:00 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:59:01 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+13/11/2025 09:59:01 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+13/11/2025 09:59:01 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:59:01 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:59:01 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:59:01 [nrb-nayon] WARN: Redis connection failed - some features may not work
+13/11/2025 09:59:35 [nrb-nayon] INFO: Redis disabled for local development
+13/11/2025 09:59:36 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+13/11/2025 09:59:36 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+13/11/2025 09:59:36 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+13/11/2025 09:59:37 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+13/11/2025 09:59:37 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+13/11/2025 09:59:37 [nrb-nayon] INFO: Analytics cleanup job scheduled
+13/11/2025 09:59:37 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+13/11/2025 09:59:37 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+13/11/2025 09:59:37 [nrb-nayon] WARN: Redis connection failed - some features may not work

@@ -1,0 +1,835 @@
+13/11/2025 10:00:02 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(9,30): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(11,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(11,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(12,8): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,27): error TS1005: ':' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(9,30): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(11,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(11,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(12,8): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,27): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(9,30): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(11,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(11,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(12,8): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,27): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 16:00:02 GMT+0600 (Bangladesh Standard Time)","process":{"pid":2592,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":111665152,"heapTotal":65462272,"heapUsed":44046680,"external":20812816,"arrayBuffers":18499231}},"os":{"loadavg":[0,0,0],"uptime":55659.937},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedAttorney.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 10:00:02 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(9,30): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(11,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(11,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(12,8): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,27): error TS1005: ':' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(9,30): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(11,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(11,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(12,8): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,27): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 10:00:19 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(10,23): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(13,14): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(13,35): error TS1005: ':' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(10,23): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(13,14): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(13,35): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(10,23): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(13,14): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(13,35): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 16:00:19 GMT+0600 (Bangladesh Standard Time)","process":{"pid":16684,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":111722496,"heapTotal":65409024,"heapUsed":44332088,"external":20812816,"arrayBuffers":18499233}},"os":{"loadavg":[0,0,0],"uptime":55676.671},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedAttorney.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 10:00:19 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(10,23): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(13,14): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(13,35): error TS1005: ':' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(10,23): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(12,1): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(12,3): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ':' expected.
+src/database/seeders/seedAttorney.ts(13,14): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(13,35): error TS1005: ':' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 10:03:49 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(19,69): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(20,13): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,22): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,27): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,34): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,40): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,52): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,56): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,69): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,75): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(21,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,21): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(21,26): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,30): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,59): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,63): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,24): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,30): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(22,37): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,45): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(22,78): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(23,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(23,17): error TS1228: A type predicate is only allowed in return type position for functions and methods.
+src/database/seeders/seedAttorney.ts(23,20): error TS1435: Unknown keyword or identifier. Did you mean 'unknown'?
+src/database/seeders/seedAttorney.ts(23,30): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(23,37): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,47): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,61): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(24,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,22): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,38): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,61): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,30): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(26,61): error TS1127: Invalid character.
+src/database/seeders/seedAttorney.ts(26,62): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,69): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,21): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,25): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,56): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,33): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,44): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,25): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,66): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(30,35): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,66): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(30,77): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(31,24): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(31,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,17): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,48): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(32,63): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(33,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,23): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,33): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,67): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,13): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(34,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,29): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,34): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,57): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,71): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,28): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,43): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(36,49): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,55): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(36,57): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(37,3): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(38,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(39,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(43,15): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(48,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(57,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(59,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(60,13): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(61,3): error TS1109: Expression expected.
+src/database/seeders/seedAttorney.ts(61,4): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(63,1): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(19,69): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(20,13): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,22): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,27): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,34): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,40): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,52): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,56): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,69): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,75): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(21,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,21): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(21,26): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,30): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,59): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,63): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,24): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,30): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(22,37): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,45): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(22,78): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(23,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(23,17): error TS1228: A type predicate is only allowed in return type position for functions and methods.
+src/database/seeders/seedAttorney.ts(23,20): error TS1435: Unknown keyword or identifier. Did you mean 'unknown'?
+src/database/seeders/seedAttorney.ts(23,30): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(23,37): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,47): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,61): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(24,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,22): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,38): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,61): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,30): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(26,61): error TS1127: Invalid character.
+src/database/seeders/seedAttorney.ts(26,62): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,69): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,21): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,25): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,56): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,33): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,44): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,25): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,66): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(30,35): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,66): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(30,77): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(31,24): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(31,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,17): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,48): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(32,63): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(33,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,23): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,33): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,67): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,13): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(34,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,29): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,34): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,57): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,71): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,28): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,43): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(36,49): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,55): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(36,57): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(37,3): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(38,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(39,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(43,15): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(48,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(57,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(59,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(60,13): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(61,3): error TS1109: Expression expected.
+src/database/seeders/seedAttorney.ts(61,4): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(63,1): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(19,69): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(20,13): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,22): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,27): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,34): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,40): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,52): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,56): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,69): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,75): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(21,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,21): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(21,26): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,30): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,59): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,63): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,24): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,30): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(22,37): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,45): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(22,78): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(23,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(23,17): error TS1228: A type predicate is only allowed in return type position for functions and methods.
+src/database/seeders/seedAttorney.ts(23,20): error TS1435: Unknown keyword or identifier. Did you mean 'unknown'?
+src/database/seeders/seedAttorney.ts(23,30): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(23,37): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,47): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,61): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(24,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,22): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,38): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,61): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,30): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(26,61): error TS1127: Invalid character.
+src/database/seeders/seedAttorney.ts(26,62): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,69): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,21): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,25): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,56): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,33): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,44): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,25): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,66): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(30,35): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,66): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(30,77): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(31,24): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(31,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,17): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,48): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(32,63): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(33,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,23): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,33): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,67): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,13): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(34,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,29): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,34): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,57): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,71): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,28): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,43): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(36,49): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,55): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(36,57): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(37,3): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(38,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(39,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(43,15): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(48,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(57,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(59,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(60,13): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(61,3): error TS1109: Expression expected.
+src/database/seeders/seedAttorney.ts(61,4): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(63,1): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 16:03:49 GMT+0600 (Bangladesh Standard Time)","process":{"pid":27636,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":112107520,"heapTotal":65409024,"heapUsed":44733528,"external":20812816,"arrayBuffers":18528765}},"os":{"loadavg":[0,0,0],"uptime":55886.828},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedAttorney.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 10:03:49 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(19,69): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(20,13): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,22): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,27): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,34): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,40): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,52): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,56): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,69): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,75): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(21,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,21): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(21,26): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,30): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,59): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,63): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,24): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,30): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(22,37): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,45): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(22,78): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(23,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(23,17): error TS1228: A type predicate is only allowed in return type position for functions and methods.
+src/database/seeders/seedAttorney.ts(23,20): error TS1435: Unknown keyword or identifier. Did you mean 'unknown'?
+src/database/seeders/seedAttorney.ts(23,30): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(23,37): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,47): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,61): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(24,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,22): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,38): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,61): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,30): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(26,61): error TS1127: Invalid character.
+src/database/seeders/seedAttorney.ts(26,62): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,69): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,21): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,25): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,56): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,33): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,44): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,25): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,66): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(30,35): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,66): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(30,77): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(31,24): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(31,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,17): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,48): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(32,63): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(33,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,23): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,33): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,67): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,13): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(34,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,29): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,34): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,57): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,71): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,28): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,43): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(36,49): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,55): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(36,57): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(37,3): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(38,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(39,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(43,15): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(48,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(57,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(59,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(60,13): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(61,3): error TS1109: Expression expected.
+src/database/seeders/seedAttorney.ts(61,4): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(63,1): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(19,69): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(20,13): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,22): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,27): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,34): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,40): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,52): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,56): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,69): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(20,75): error TS1005: ',' expected.
+src/database/seeders/seedAttorney.ts(21,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,21): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(21,26): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,30): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,59): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(21,63): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,24): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,30): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(22,37): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,45): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(22,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(22,78): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(23,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(23,17): error TS1228: A type predicate is only allowed in return type position for functions and methods.
+src/database/seeders/seedAttorney.ts(23,20): error TS1435: Unknown keyword or identifier. Did you mean 'unknown'?
+src/database/seeders/seedAttorney.ts(23,30): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(23,37): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,47): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(23,61): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(24,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,22): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(24,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,38): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(25,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(25,61): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,30): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(26,61): error TS1127: Invalid character.
+src/database/seeders/seedAttorney.ts(26,62): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(26,69): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,21): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,25): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(27,56): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,33): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,44): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(28,64): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,25): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(29,31): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,58): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(29,66): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(30,35): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(30,66): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(30,77): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(31,24): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(31,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,35): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,43): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,47): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(31,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,17): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(32,48): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(32,63): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(33,13): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,20): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,23): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,33): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,44): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(33,67): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,13): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(34,42): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(34,54): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(35,29): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,34): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,36): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,42): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,50): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,53): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,57): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,64): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(35,71): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,28): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,32): error TS1434: Unexpected keyword or identifier.
+src/database/seeders/seedAttorney.ts(36,43): error TS1005: '(' expected.
+src/database/seeders/seedAttorney.ts(36,49): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(36,55): error TS1003: Identifier expected.
+src/database/seeders/seedAttorney.ts(36,57): error TS1002: Unterminated string literal.
+src/database/seeders/seedAttorney.ts(37,3): error TS1005: ')' expected.
+src/database/seeders/seedAttorney.ts(38,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(39,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(43,15): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(48,26): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(57,14): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(59,12): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(60,13): error TS1005: ';' expected.
+src/database/seeders/seedAttorney.ts(61,3): error TS1109: Expression expected.
+src/database/seeders/seedAttorney.ts(61,4): error TS1128: Declaration or statement expected.
+src/database/seeders/seedAttorney.ts(63,1): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 10:06:33 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 16:06:33 GMT+0600 (Bangladesh Standard Time)","process":{"pid":24220,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":112357376,"heapTotal":65208320,"heapUsed":45235656,"external":20812816,"arrayBuffers":18498825}},"os":{"loadavg":[0,0,0],"uptime":56050.437},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedAttorney.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 10:06:33 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+13/11/2025 10:06:35 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Thu Nov 13 2025 16:06:35 GMT+0600 (Bangladesh Standard Time)","process":{"pid":10132,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":111394816,"heapTotal":65462272,"heapUsed":43977664,"external":20812816,"arrayBuffers":18498825}},"os":{"loadavg":[0,0,0],"uptime":56052.578},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedAttorney.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-5355602704477087.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+13/11/2025 10:06:35 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedAttorney.ts(13,3): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedAttorney.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-5355602704477087.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)

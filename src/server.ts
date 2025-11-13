@@ -3,9 +3,9 @@ import mongoose from 'mongoose';
 import app from './app';
 import config from './config';
 import { redisClient } from './config/redis.config';
-import seedAdmin from './database/seeders';
 import { startAllCleanupJobs } from './jobs/cleanupJobs';
 import { errorLogger, logger } from './shared/utils/logger';
+import runSeeders from './database/seeders';
 
 //uncaught exception
 process.on('uncaughtException', error => {
@@ -35,7 +35,7 @@ async function main() {
       );
     });
 
-    await seedAdmin();
+    await runSeeders();
     
     // Start cleanup jobs
     startAllCleanupJobs();

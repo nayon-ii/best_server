@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\logs\\error\\.fd5db2471448b01d8280dbd936ad41f36632c33f-audit.json",
+    "files": [
+        {
+            "date": 1763023886133,
+            "name": "D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\logs\\error\\2025-11-13-14-error.log",
+            "hash": "779a07ddaf0f28c889e45bf8558f112a6921d2220adb3195981a3954399b1633"
+        },
+        {
+            "date": 1763024586392,
+            "name": "D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\logs\\error\\2025-11-13-15-error.log",
+            "hash": "119b2878872ed342e5a7bf5bbd4a77e21c2d8a119debc20af63c27f29f63f31f"
+        },
+        {
+            "date": 1763028002208,
+            "name": "D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\logs\\error\\2025-11-13-16-error.log",
+            "hash": "e54300453a52d97cb3862d14205a37ecd16392a32d83d91c92e55a4bfd4b5249"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,5 +1,3 @@
-//   Create a new user account
-
 import { StatusCodes } from "http-status-codes";
 import { USER_ROLE } from "../../shared/enums/user";
 import AppError from "../../shared/errors/AppError";
@@ -17,10 +15,6 @@ import { logger } from "../../shared/utils/logger";
 import QueryBuilder from "../../shared/utils/QueryBuilder";
 
 const createUserIntoDB = async (payload: Partial<IUser>): Promise<IUser> => {
-  // Set default role
-  payload.role = USER_ROLE.USER;
-  payload.language = payload.language || "en";
-
   // Check if email already exists
   const emailExists = await User.isExistUserByEmail(payload.email!);
   if (emailExists) {
@@ -29,6 +23,9 @@ const createUserIntoDB = async (payload: Partial<IUser>): Promise<IUser> => {
       "An account with this email already exists"
     );
   }
+
+  // Set default role
+  payload.role = USER_ROLE.USER;
 
   // Create user
   const user = await User.create(payload);
@@ -109,6 +106,7 @@ const getAllUsersFromDB = async (query: Record<string, unknown>) => {
   };
 };
 
+/**
 /**
  * Get current user profile
  */

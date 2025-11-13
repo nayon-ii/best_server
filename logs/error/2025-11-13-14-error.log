@@ -1,0 +1,18 @@
+13/11/2025 08:52:02 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/user/sign-up 404 - 16.728 ms
+13/11/2025 08:52:52 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-up 404 - 12.340 ms
+13/11/2025 08:53:04 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Password is incorrect!
+Error: Password is incorrect!
+    at Object.loginUserFromDB (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:45:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:25:18 {"statusCode":400}
+13/11/2025 08:53:04 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 400 - 59.490 ms
+13/11/2025 08:53:44 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Password is incorrect!
+Error: Password is incorrect!
+    at Object.loginUserFromDB (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:45:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:25:18 {"statusCode":400}
+13/11/2025 08:53:44 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 400 - 46.418 ms
+13/11/2025 08:54:00 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  User doesn't exist!
+Error: User doesn't exist!
+    at Object.loginUserFromDB (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:29:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:25:18 {"statusCode":400}
+13/11/2025 08:54:00 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 400 - 45.473 ms

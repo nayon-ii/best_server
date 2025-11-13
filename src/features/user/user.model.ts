@@ -1,7 +1,8 @@
-// src/app/modules/user/user.model.ts
 import { model, Schema } from "mongoose";
 import { IUser, UserModel, IUserMethods } from "./user.interface";
 import { USER_ROLE, STATUS } from "../../shared/enums/user";
+import bcrypt from "bcryptjs";
+import config from "../../config";
 
 const authenticationSchema = new Schema(
   {
@@ -68,7 +69,6 @@ const userSchema = new Schema<IUser, UserModel, IUserMethods>(
       default: STATUS.ACTIVE,
       index: true,
     },
-
     verified: {
       type: Boolean,
       default: false,
@@ -78,12 +78,10 @@ const userSchema = new Schema<IUser, UserModel, IUserMethods>(
       type: Boolean,
       default: false,
     },
-
     isSubscribed: {
       type: Boolean,
       default: false,
     },
-
     authentication: {
       type: authenticationSchema,
       select: false,
@@ -92,5 +90,59 @@ const userSchema = new Schema<IUser, UserModel, IUserMethods>(
   },
   { timestamps: true, versionKey: false }
 );
+
+// Pre-save middleware - Hash password
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+
+  try {
+    const saltRounds = Number(config.bcrypt_salt_rounds) || 12;
+    this.password = await bcrypt.hash(this.password, saltRounds);
+    next();
+  } catch (error: any) {
+    next(error);
+  }
+});
+
+// Instance method - Compare password
+userSchema.methods.comparePassword = async function (
+  candidatePassword: string
+): Promise<boolean> {
+  return bcrypt.compare(candidatePassword, this.password);
+};
+
+// Static method - Check if user exists by ID
+userSchema.statics.isExistUserById = async function (
+  id: string
+): Promise<IUser | null> {
+  return this.findById(id).select("+password");
+};
+
+// Static method - Check if user exists by email
+userSchema.statics.isExistUserByEmail = async function (
+  email: string
+): Promise<IUser | null> {
+  return this.findOne({
+    email: email.toLowerCase(),
+  }).select("+password +authentication");
+};
+
+// Static method - Check if account is created and verified
+userSchema.statics.isAccountCreated = async function (
+  id: string
+): Promise<IUser | null> {
+  return this.findOne({
+    _id: id,
+    verified: true,
+  });
+};
+
+// Static method - Compare passwords
+userSchema.statics.isMatchPassword = async function (
+  password: string,
+  hashPassword: string
+): Promise<boolean> {
+  return bcrypt.compare(password, hashPassword);
+};
 
 export const User = model<IUser, UserModel>("User", userSchema);

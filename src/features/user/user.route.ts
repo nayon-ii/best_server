@@ -1,5 +1,4 @@
-
-// src\features\user\user.route.ts
+// backend_server\src\features\user\user.route.ts
 import { Router } from "express";
 import validateRequest from "../../shared/middlewares/validateRequest";
 import { UserController } from "./user.controller";

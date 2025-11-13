@@ -1,4 +1,4 @@
-// src\features\user\user.validation.ts
+// backend_server\src\features\user\user.route.ts
 import { z } from "zod";
 import { STATUS, USER_ROLE } from "../../shared/enums/user";
 

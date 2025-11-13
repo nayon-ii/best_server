@@ -35,7 +35,7 @@
 13/11/2025 08:55:21 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
 13/11/2025 08:55:21 [nrb-nayon] INFO: All cleanup and notification cron jobs started
 13/11/2025 08:55:21 [nrb-nayon] WARN: Redis connection failed - some features may not work
-13/11/2025 08:55:27 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/auth/sign-in 200 - 948.814 ms
+13/11/2025 08:55:27 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/auth/signin 200 - 948.814 ms
 13/11/2025 08:57:08 [nrb-nayon] INFO: Redis disabled for local development
 13/11/2025 08:57:09 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
 13/11/2025 08:57:09 [nrb-nayon] INFO: [33m[39m

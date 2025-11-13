@@ -1,0 +1,5 @@
+13/11/2025 11:00:05 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Password is incorrect!
+Error: Password is incorrect!
+    at Object.loginUserFromDB (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:44:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:41:18 {"statusCode":400}
+13/11/2025 11:00:05 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/signin 400 - 295.282 ms

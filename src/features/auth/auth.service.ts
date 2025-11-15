@@ -20,7 +20,6 @@ import {
 } from "../../shared/types/auth";
 
 //login
-//login
 const loginUserFromDB = async (payload: ILoginData) => {
   const { email, password } = payload;
   const isExistUser = await User.findOne({ email }).select("+password");
@@ -50,7 +49,6 @@ const loginUserFromDB = async (payload: ILoginData) => {
     lastSeen: new Date(),
   });
 
-  // Removed incorrect password reset notification call from login flow
   const tokenPayload = {
     id: isExistUser._id,
     role: isExistUser.role,
@@ -178,7 +176,6 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
   );
 
   let message;
-  let data;
 
   if (!isExistUser.verified) {
     await User.findOneAndUpdate(
@@ -187,7 +184,6 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
     );
 
     message = "Your email has been successfully verified.";
-    data = { user: isExistUser, accessToken, refreshToken };
   } else {
     await User.findOneAndUpdate(
       { _id: isExistUser._id },
@@ -206,10 +202,20 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
       expireAt: new Date(Date.now() + 20 * 60000),
     });
     message = "Verification Successful";
-    data = { user: isExistUser, accessToken, refreshToken };
   }
 
-  return { data, message };
+  // Get updated user data without password
+  const updatedUser = await User.findById(isExistUser._id).select(
+    "-password -authentication"
+  );
+
+  return {
+    user: updatedUser,
+    role: updatedUser?.role,
+    accessToken,
+    refreshToken,
+    message,
+  };
 };
 
 const resetPasswordToDB = async (
@@ -359,11 +365,11 @@ const newAccessTokenToUser = async (token: string) => {
     config.jwt.jwt_expire_in as string
   );
 
-  return { accessToken };
+  return { accessToken, role: isExistUser.role };
 };
 
 const resendVerificationEmailToDB = async (email: string) => {
-  // Find the user by ID
+  // Find the user by email
   const existingUser: any = await User.findOne({
     email: email,
   }).lean();
@@ -375,7 +381,7 @@ const resendVerificationEmailToDB = async (email: string) => {
     );
   }
 
-  if (existingUser?.isVerified) {
+  if (existingUser?.verified) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User is already verified!");
   }
 
@@ -402,6 +408,20 @@ const resendVerificationEmailToDB = async (email: string) => {
   );
 };
 
+//logout
+const logoutUserFromDB = async (userId: string) => {
+  const isExistUser = await User.findById(userId);
+  if (!isExistUser) {
+    throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+  }
+
+  // Update user online status and last seen
+  await User.findByIdAndUpdate(userId, {
+    isOnline: false,
+    lastSeen: new Date(),
+  });
+};
+
 export const AuthService = {
   verifyEmailToDB,
   loginUserFromDB,
@@ -411,4 +431,5 @@ export const AuthService = {
   deleteAccountToDB,
   newAccessTokenToUser,
   resendVerificationEmailToDB,
+  logoutUserFromDB,
 };

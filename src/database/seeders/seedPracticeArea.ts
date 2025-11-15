@@ -9,12 +9,14 @@ const practiceAreaSeedData = [
     description:
       "Federal & State Criminal Defense, DUI, Drug Offenses, Violent Crimes, Theft, Domestic Violence, and more.",
     image: "http://localhost:3000/practice-test.png",
+    status: "active",
   },
   {
     title: "White Collar Defense",
     description:
       "Securities fraud, tax evasion, embezzlement, money laundering, insider trading, and corporate crimes.",
     image: "http://localhost:3000/practice-test.png",
+    status: "active",
   },
 ];
 

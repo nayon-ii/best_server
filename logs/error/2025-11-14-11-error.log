@@ -1,0 +1,5 @@
+14/11/2025 05:22:02 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 404 - 12.111 ms
+14/11/2025 05:22:06 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 404 - 2.963 ms
+14/11/2025 05:22:30 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 404 - 0.601 ms
+14/11/2025 05:24:36 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 404 - 1.967 ms
+14/11/2025 05:25:05 [nrb-nayon] ERROR: 127.0.0.1 - GET /favicon.ico 404 - 0.661 ms

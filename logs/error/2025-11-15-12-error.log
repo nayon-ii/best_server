@@ -1,0 +1,261 @@
+15/11/2025 06:09:30 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: phone: Phone is required, address.line1: Address line 1 is required, socialMedia.facebook: Facebook URL is required, socialMedia.twitter: Twitter URL is required, socialMedia.linkedin: LinkedIn URL is required
+ValidationError: Contact validation failed: phone: Phone is required, address.line1: Address line 1 is required, socialMedia.facebook: Facebook URL is required, socialMedia.twitter: Twitter URL is required, socialMedia.linkedin: LinkedIn URL is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"phone":{"name":"ValidatorError","message":"Phone is required","properties":{"message":"Phone is required","type":"required","path":"phone","value":"","length":0},"kind":"required","path":"phone","value":""},"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""},"socialMedia.facebook":{"name":"ValidatorError","message":"Facebook URL is required","properties":{"message":"Facebook URL is required","type":"required","path":"facebook","value":"","length":0},"kind":"required","path":"facebook","value":""},"socialMedia.twitter":{"name":"ValidatorError","message":"Twitter URL is required","properties":{"message":"Twitter URL is required","type":"required","path":"twitter","value":"","length":0},"kind":"required","path":"twitter","value":""},"socialMedia.linkedin":{"name":"ValidatorError","message":"LinkedIn URL is required","properties":{"message":"LinkedIn URL is required","type":"required","path":"linkedin","value":"","length":0},"kind":"required","path":"linkedin","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:09:30 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 278.684 ms
+15/11/2025 06:09:30 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: phone: Phone is required, address.line1: Address line 1 is required, socialMedia.facebook: Facebook URL is required, socialMedia.twitter: Twitter URL is required, socialMedia.linkedin: LinkedIn URL is required
+ValidationError: Contact validation failed: phone: Phone is required, address.line1: Address line 1 is required, socialMedia.facebook: Facebook URL is required, socialMedia.twitter: Twitter URL is required, socialMedia.linkedin: LinkedIn URL is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"phone":{"name":"ValidatorError","message":"Phone is required","properties":{"message":"Phone is required","type":"required","path":"phone","value":"","length":0},"kind":"required","path":"phone","value":""},"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""},"socialMedia.facebook":{"name":"ValidatorError","message":"Facebook URL is required","properties":{"message":"Facebook URL is required","type":"required","path":"facebook","value":"","length":0},"kind":"required","path":"facebook","value":""},"socialMedia.twitter":{"name":"ValidatorError","message":"Twitter URL is required","properties":{"message":"Twitter URL is required","type":"required","path":"twitter","value":"","length":0},"kind":"required","path":"twitter","value":""},"socialMedia.linkedin":{"name":"ValidatorError","message":"LinkedIn URL is required","properties":{"message":"LinkedIn URL is required","type":"required","path":"linkedin","value":"","length":0},"kind":"required","path":"linkedin","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:09:30 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 69.453 ms
+15/11/2025 06:11:35 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/features/contact/contact.validation.ts(11,29): error TS1135: Argument expression expected.
+src/features/contact/contact.validation.ts(11,30): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/features/contact/contact.validation.ts(11,29): error TS1135: Argument expression expected.
+src/features/contact/contact.validation.ts(11,30): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\contact\contact.validation.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/features/contact/contact.validation.ts(11,29): error TS1135: Argument expression expected.
+src/features/contact/contact.validation.ts(11,30): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\contact\contact.validation.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Sat Nov 15 2025 12:11:35 GMT+0600 (Bangladesh Standard Time)","process":{"pid":41752,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":102785024,"heapTotal":62771200,"heapUsed":44310376,"external":20780048,"arrayBuffers":18450790}},"os":{"loadavg":[0,0,0],"uptime":214746.828},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\features\\contact\\contact.validation.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+15/11/2025 06:11:35 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/features/contact/contact.validation.ts(11,29): error TS1135: Argument expression expected.
+src/features/contact/contact.validation.ts(11,30): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/features/contact/contact.validation.ts(11,29): error TS1135: Argument expression expected.
+src/features/contact/contact.validation.ts(11,30): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\contact\contact.validation.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+15/11/2025 06:13:19 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:19 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 58.615 ms
+15/11/2025 06:13:19 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:19 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 54.021 ms
+15/11/2025 06:13:23 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:23 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 51.978 ms
+15/11/2025 06:13:23 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:23 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 53.355 ms
+15/11/2025 06:13:49 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:49 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 81.390 ms
+15/11/2025 06:13:49 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Contact validation failed: address.line1: Address line 1 is required
+ValidationError: Contact validation failed: address.line1: Address line 1 is required
+    at model.Document.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3362:32)
+    at SingleNested.Subdocument.invalidate (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\document.js:3123:17
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\mongoose\lib\schemaType.js:1420:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11) {"errors":{"address.line1":{"name":"ValidatorError","message":"Address line 1 is required","properties":{"message":"Address line 1 is required","type":"required","path":"line1","value":"","length":0},"kind":"required","path":"line1","value":""}},"_message":"Contact validation failed"}
+15/11/2025 06:13:49 [nrb-nayon] ERROR: 127.0.0.1 - GET /api/v1/contact 400 - 55.381 ms
+15/11/2025 06:29:15 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:600:14)
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:610:14)
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:664:3) {"statusCode":401}
+15/11/2025 06:29:15 [nrb-nayon] ERROR: 127.0.0.1 - PATCH /api/v1/practice-areas/6915aefaf1c70a693e9d4182 401 - 29.116 ms
+15/11/2025 06:29:15 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 06:29:15 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 24.245 ms
+15/11/2025 06:31:51 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:600:14)
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:610:14)
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:664:3) {"statusCode":401}
+15/11/2025 06:31:51 [nrb-nayon] ERROR: 127.0.0.1 - PATCH /api/v1/practice-areas/6915aefaf1c70a693e9d4182 401 - 4.222 ms
+15/11/2025 06:31:51 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 06:31:51 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 2.490 ms
+15/11/2025 06:32:04 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:600:14)
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:610:14)
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:664:3) {"statusCode":401}
+15/11/2025 06:32:04 [nrb-nayon] ERROR: 127.0.0.1 - PATCH /api/v1/practice-areas/6915aefaf1c70a693e9d4182 401 - 2.205 ms
+15/11/2025 06:32:04 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 06:32:04 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 3.023 ms
+15/11/2025 06:33:00 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedPracticeArea.ts(19,3): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedPracticeArea.ts(19,3): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedPracticeArea.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedPracticeArea.ts(19,3): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedPracticeArea.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Sat Nov 15 2025 12:33:00 GMT+0600 (Bangladesh Standard Time)","process":{"pid":26792,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":110604288,"heapTotal":65200128,"heapUsed":44157488,"external":20812816,"arrayBuffers":18499334}},"os":{"loadavg":[0,0,0],"uptime":216031.468},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\database\\seeders\\seedPracticeArea.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-7360141189123004.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+15/11/2025 06:33:00 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedPracticeArea.ts(19,3): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/database/seeders/seedPracticeArea.ts(19,3): error TS1109: Expression expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\database\seeders\seedPracticeArea.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-7360141189123004.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+15/11/2025 06:33:42 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:600:14)
+    at param (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:610:14)
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:664:3) {"statusCode":401}
+15/11/2025 06:33:42 [nrb-nayon] ERROR: 127.0.0.1 - PATCH /api/v1/practice-areas/6915aefaf1c70a693e9d4182 401 - 7.896 ms
+15/11/2025 06:33:42 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 06:33:42 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 50.387 ms

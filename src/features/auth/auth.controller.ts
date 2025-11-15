@@ -7,35 +7,6 @@ import sendResponse from "../../shared/utils/sendResponse";
 import config from "../../config";
 import AppError from "../../shared/errors/AppError";
 
-const verifyEmail = catchAsync(async (req: Request, res: Response) => {
-  const verifyData = req.body;
-  console.log("Get email and otp::", verifyData);
-
-  const result = await AuthService.verifyEmailToDB(verifyData);
-
-  // Set cookies for accessToken and refreshToken
-  res.cookie("accessToken", result.data.accessToken, {
-    secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-  });
-
-  res.cookie("refreshToken", result.data.refreshToken, {
-    secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
-    maxAge: 365 * 24 * 60 * 60 * 1000, // 365 days
-  });
-
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.OK,
-    message: result.message,
-    data: result.data,
-  });
-});
-
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   const { ...loginData } = req.body;
   const result = await AuthService.loginUserFromDB(loginData);
@@ -55,10 +26,49 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
     maxAge: 365 * 24 * 60 * 60 * 1000, // 365 days
   });
 
+  res.cookie("userRole", result.role, {
+    secure: config.node_env === "production",
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+  });
+
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: "User login successfully",
+    data: result,
+  });
+});
+
+const verifyEmail = catchAsync(async (req: Request, res: Response) => {
+  const verifyData = req.body;
+  console.log("Get email and otp::", verifyData);
+
+  const result = await AuthService.verifyEmailToDB(verifyData);
+
+  // Set cookies for accessToken and refreshToken
+  res.cookie("accessToken", result.accessToken, {
+    secure: config.node_env === "production",
+    httpOnly: true,
+    sameSite: "strict",
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+  });
+
+  res.cookie("refreshToken", result.refreshToken, {
+    secure: config.node_env === "production",
+    httpOnly: true,
+    sameSite: "strict",
+    maxAge: 365 * 24 * 60 * 60 * 1000, // 365 days
+  });
+
+  res.cookie("userRole", result.role, {
+    secure: config.node_env === "production",
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+  });
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: result.message,
     data: result,
   });
 });
@@ -134,6 +144,11 @@ const newAccessToken = catchAsync(async (req: Request, res: Response) => {
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
 
+  res.cookie("userRole", result.role, {
+    secure: config.node_env === "production",
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+  });
+
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
@@ -156,6 +171,35 @@ const resendVerificationEmail = catchAsync(
   }
 );
 
+const logoutUser = catchAsync(async (req: Request, res: Response) => {
+  const user = req.user;
+
+  await AuthService.logoutUserFromDB(user.id);
+
+  // Clear all authentication cookies
+  res.clearCookie("accessToken", {
+    secure: config.node_env === "production",
+    httpOnly: true,
+    sameSite: "strict",
+  });
+
+  res.clearCookie("refreshToken", {
+    secure: config.node_env === "production",
+    httpOnly: true,
+    sameSite: "strict",
+  });
+
+  res.clearCookie("userRole", {
+    secure: config.node_env === "production",
+  });
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: "User logout successfully",
+  });
+});
+
 export const AuthController = {
   verifyEmail,
   loginUser,
@@ -165,4 +209,5 @@ export const AuthController = {
   deleteAccount,
   newAccessToken,
   resendVerificationEmail,
+  logoutUser,
 };

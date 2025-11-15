@@ -1,22 +1,22 @@
 // src/features/contact/contact.validation.ts
-import { z } from 'zod';
+import { z } from "zod";
 
 const addressSchema = z.object({
-  line1: z.string().trim().min(1, 'Address line 1 is required'),
+  line1: z.string().trim().optional(),
   line2: z.string().trim().optional(),
   line3: z.string().trim().optional(),
 });
 
 const socialMediaSchema = z.object({
-  facebook: z.string().trim().min(1, 'Facebook URL is required'),
-  twitter: z.string().trim().min(1, 'Twitter URL is required'),
-  linkedin: z.string().trim().min(1, 'LinkedIn URL is required'),
+  facebook: z.string().trim().optional(),
+  twitter: z.string().trim().optional(),
+  linkedin: z.string().trim().optional(),
 });
 
 const updateContactInfoSchema = z.object({
   body: z.object({
-    email: z.string().trim().email('Invalid email address'),
-    phone: z.string().trim().min(1, 'Phone is required'),
+    email: z.string().trim().email("Invalid email address").optional(),
+    phone: z.string().trim().optional(),
     address: addressSchema,
     socialMedia: socialMediaSchema,
   }),
@@ -25,4 +25,3 @@ const updateContactInfoSchema = z.object({
 export const ContactValidation = {
   updateContactInfoSchema,
 };
-

@@ -1,0 +1,5 @@
+14/11/2025 05:22:02 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/auth/sign-in 204 - 1.923 ms
+14/11/2025 05:22:30 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/auth/sign-in 204 - 0.213 ms
+14/11/2025 05:24:36 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/auth/sign-in 204 - 0.140 ms
+14/11/2025 05:25:03 [nrb-nayon] INFO: 127.0.0.1 - GET / 200 - 11.925 ms
+14/11/2025 05:25:05 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/health 200 - 10.328 ms

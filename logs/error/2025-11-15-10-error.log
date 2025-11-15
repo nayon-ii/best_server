@@ -1,0 +1,247 @@
+15/11/2025 04:07:53 [nrb-nayon] ERROR: uncaughtException: verifyEmail is not defined
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:172:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:172:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Sat Nov 15 2025 10:07:53 GMT+0600 (Bangladesh Standard Time)","process":{"pid":40440,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":89853952,"heapTotal":60751872,"heapUsed":33667648,"external":20790518,"arrayBuffers":18442568}},"os":{"loadavg":[0,0,0],"uptime":207324.859},"trace":[{"column":3,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\features\\auth\\auth.controller.ts","function":null,"line":172,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+15/11/2025 04:07:53 [nrb-nayon] ERROR: Uncaught Exception: verifyEmail is not defined
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:172:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+15/11/2025 04:07:55 [nrb-nayon] ERROR: uncaughtException: verifyEmail is not defined
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:170:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:170:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Sat Nov 15 2025 10:07:55 GMT+0600 (Bangladesh Standard Time)","process":{"pid":32984,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":90001408,"heapTotal":60743680,"heapUsed":32465424,"external":20790502,"arrayBuffers":18442552}},"os":{"loadavg":[0,0,0],"uptime":207326.593},"trace":[{"column":3,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\features\\auth\\auth.controller.ts","function":null,"line":170,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+15/11/2025 04:07:55 [nrb-nayon] ERROR: Uncaught Exception: verifyEmail is not defined
+ReferenceError: verifyEmail is not defined
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:170:3)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+15/11/2025 04:40:12 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 404 - 36.337 ms
+15/11/2025 04:41:18 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:23:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"statusCode":401}
+15/11/2025 04:41:18 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 401 - 7.778 ms
+15/11/2025 04:41:18 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 04:41:18 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 23.432 ms
+15/11/2025 04:49:44 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:23:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"statusCode":401}
+15/11/2025 04:49:44 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 401 - 4.913 ms
+15/11/2025 04:49:44 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 04:49:44 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 4.318 ms
+15/11/2025 04:51:41 [nrb-nayon] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middlewares/auth.ts(28,52): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middlewares/auth.ts(28,52): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middlewares/auth.ts(28,52): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {"error":{},"exception":true,"date":"Sat Nov 15 2025 10:51:41 GMT+0600 (Bangladesh Standard Time)","process":{"pid":40464,"uid":null,"gid":null,"cwd":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v22.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","src/server.ts"],"memoryUsage":{"rss":88911872,"heapTotal":60743680,"heapUsed":28229136,"external":20780048,"arrayBuffers":18418146}},"os":{"loadavg":[0,0,0],"uptime":209953},"trace":[{"column":7,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\src\\shared\\middlewares\\auth.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":null,"line":1730,"method":null,"native":false},{"column":25,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\nrbna\\AppData\\Local\\Temp\\ts-node-dev-hook-9793090865172147.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\Nayon xD\\Dashboard\\Dashboard Design\\law_firm_portfolio_server\\backend_server\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false}]}
+15/11/2025 04:51:41 [nrb-nayon] ERROR: Uncaught Exception: ⨯ Unable to compile TypeScript:
+src/shared/middlewares/auth.ts(28,52): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middlewares/auth.ts(28,52): error TS1005: ',' expected.
+
+    at Object.<anonymous> (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:1:7)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:69:33)
+    at node:internal/modules/cjs/loader:1895:10
+    at require.extensions..jsx.require.extensions..js (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:114:20)
+    at require.extensions.<computed> (C:\Users\nrbna\AppData\Local\Temp\ts-node-dev-hook-9793090865172147.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+15/11/2025 04:51:54 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:23:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"statusCode":401}
+15/11/2025 04:51:54 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 401 - 8.540 ms
+15/11/2025 04:51:54 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 04:51:54 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 30.418 ms
+15/11/2025 04:52:55 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"statusCode":401}
+15/11/2025 04:52:55 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 401 - 6.777 ms
+15/11/2025 04:52:55 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 04:52:55 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 19.453 ms
+15/11/2025 04:53:25 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  You are not authorized
+Error: You are not authorized
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:24:15
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:186:3) {"statusCode":401}
+15/11/2025 04:53:25 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/logout 401 - 8.162 ms
+15/11/2025 04:53:25 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  Token is required!
+Error: Token is required!
+    at Object.newAccessTokenToUser (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.service.ts:344:11)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\features\auth\auth.controller.ts:137:36
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\utils\catchAsync.ts:5:21
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15
+    at processParams (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:582:12) {"statusCode":400}
+15/11/2025 04:53:25 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/refresh-token 400 - 18.810 ms
+15/11/2025 04:58:13 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/auth/sign-in 404 - 1.613 ms

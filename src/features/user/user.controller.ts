@@ -20,8 +20,8 @@ const createUser = catchAsync(async (req, res) => {
 });
 
 const getMyProfile = catchAsync(async (req, res) => {
-  const user = req.user;
-  const result = await UserService.getUserProfileFromDB(user);
+  const userId = req.user.id;
+  const result = await UserService.getUserProfileFromDB(userId);
 
   sendResponse(res, {
     success: true,

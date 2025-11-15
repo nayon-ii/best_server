@@ -22,3 +22,14 @@
 15/11/2025 07:40:04 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/practice-areas 204 - 0.137 ms
 15/11/2025 07:40:04 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 61.956 ms
 15/11/2025 07:40:04 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/practice-areas 200 - 101.161 ms
+15/11/2025 07:53:51 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/auth/signin 204 - 1.117 ms
+15/11/2025 07:53:52 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/auth/signin 200 - 523.615 ms
+15/11/2025 07:53:54 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/practice-areas 204 - 0.167 ms
+15/11/2025 07:53:54 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/practice-areas 304 - 113.038 ms
+15/11/2025 07:53:54 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/practice-areas 304 - 109.015 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 4.905 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.218 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 200 - 182.856 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 200 - 66.427 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/practice-areas 204 - 0.149 ms
+15/11/2025 07:59:39 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/practice-areas 304 - 118.093 ms

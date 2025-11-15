@@ -17,7 +17,7 @@ const practiceAreaSchema = new Schema<IPracticeArea, PracticeAreaModel>(
       type: String,
       required: [true, 'Description is required'],
       trim: true,
-      minlength: [10, 'Description must be at least 10 characters'],
+      minlength: [2, 'Description must be at least 2 characters'],
     },
     image: {
       type: String,

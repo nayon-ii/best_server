@@ -1,0 +1,1184 @@
+15/11/2025 09:00:59 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:00:59 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 22.642 ms
+15/11/2025 09:01:20 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:01:20 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 4.093 ms
+15/11/2025 09:02:39 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:02:39 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 25.634 ms
+15/11/2025 09:03:02 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 10 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:03:02 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 19.642 ms
+15/11/2025 09:10:17 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:10:17 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 27.432 ms
+15/11/2025 09:10:39 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:10:39 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 7.365 ms
+15/11/2025 09:11:14 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:11:14 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 5.011 ms
+15/11/2025 09:11:39 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:11:39 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 3.268 ms
+15/11/2025 09:12:02 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:12:02 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 5.259 ms
+15/11/2025 09:12:21 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:12:21 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 4.385 ms
+15/11/2025 09:12:53 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:12:53 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 9.306 ms
+15/11/2025 09:14:53 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:14:53 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 24.261 ms
+15/11/2025 09:15:07 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:15:07 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 4.724 ms
+15/11/2025 09:15:51 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:15:51 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 6.112 ms
+15/11/2025 09:15:56 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:15:56 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 4.977 ms
+15/11/2025 09:16:01 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description must be at least 2 characters"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 2,
+    "inclusive": true,
+    "path": [
+      "body",
+      "outcome"
+    ],
+    "message": "Outcome must be at least 2 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\auth.ts:50:7
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\index.js:295:15 {"name":"ZodError"}
+15/11/2025 09:16:01 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/insights 400 - 2.513 ms
+15/11/2025 09:37:04 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "biography"
+    ],
+    "message": "Biography must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "biography"
+    ],
+    "message": "Biography must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\fileUploadHandler.ts:334:9
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {"name":"ZodError"}
+15/11/2025 09:37:04 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/attorneys 400 - 31.443 ms
+15/11/2025 09:37:14 [nrb-nayon] ERROR: 🚨 globalErrorHandler ~~  [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "biography"
+    ],
+    "message": "Biography must be at least 10 characters"
+  }
+]
+ZodError: [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 10,
+    "inclusive": true,
+    "path": [
+      "body",
+      "biography"
+    ],
+    "message": "Biography must be at least 10 characters"
+  }
+]
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\validateRequest.ts:8:20
+    at Layer.handleRequest (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\node_modules\router\lib\route.js:157:13)
+    at D:\Nayon xD\Dashboard\Dashboard Design\law_firm_portfolio_server\backend_server\src\shared\middlewares\fileUploadHandler.ts:334:9
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {"name":"ZodError"}
+15/11/2025 09:37:14 [nrb-nayon] ERROR: 127.0.0.1 - POST /api/v1/attorneys 400 - 15.846 ms

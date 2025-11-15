@@ -28,7 +28,7 @@ const createAttorneySchema = z.object({
     biography: z
       .string()
       .trim()
-      .min(10, 'Biography must be at least 10 characters'),
+      .min(2, 'Biography must be at least 2 characters'),
   
     education: z.array(z.string().trim()).default([]),
     barAdmission: z.array(z.string().trim()).default([]),
@@ -53,7 +53,7 @@ const updateAttorneySchema = z.object({
     biography: z
       .string()
       .trim()
-      .min(10, 'Biography must be at least 10 characters')
+      .min(2, 'Biography must be at least 2 characters')
       .optional(),
     education: z.array(z.string().trim()).optional(),
     barAdmission: z.array(z.string().trim()).optional(),

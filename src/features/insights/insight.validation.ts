@@ -13,11 +13,11 @@ const createInsightSchema = z.object({
     description: z
       .string()
       .trim()
-      .min(10, 'Description must be at least 10 characters'),
+      .min(2, 'Description must be at least 2 characters'),
     outcome: z
       .string()
       .trim()
-      .min(10, 'Outcome must be at least 10 characters'),
+      .min(2, 'Outcome must be at least 2 characters'),
     status: z.nativeEnum(STATUS).optional(),
   }),
 });
@@ -34,12 +34,12 @@ const updateInsightSchema = z.object({
     description: z
       .string()
       .trim()
-      .min(10, 'Description must be at least 10 characters')
+      .min(2, 'Description must be at least 2 characters')
       .optional(),
     outcome: z
       .string()
       .trim()
-      .min(10, 'Outcome must be at least 10 characters')
+      .min(2, 'Outcome must be at least 2 characters')
       .optional(),
     status: z.nativeEnum(STATUS).optional(),
   }),
@@ -52,8 +52,8 @@ const getAllInsightsQuerySchema = z.object({
     status: z.nativeEnum(STATUS).optional(),
     startDate: z.string().datetime().optional(),
     endDate: z.string().datetime().optional(),
-    page: z.string().regex(/^\d+$/).transform(Number).default('1'),
-    limit: z.string().regex(/^\d+$/).transform(Number).default('10'),
+    page: z.string().regex(/^\d+$/).transform(Number).default(1),
+    limit: z.string().regex(/^\d+$/).transform(Number).default(10),
     sortBy: z.string().default('createdAt'),
     sortOrder: z.enum(['asc', 'desc']).default('desc'),
   }),

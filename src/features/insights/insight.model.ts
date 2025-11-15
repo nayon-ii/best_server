@@ -23,13 +23,13 @@ const insightSchema = new Schema<IInsight, InsightModel>(
       type: String,
       required: [true, 'Description is required'],
       trim: true,
-      minlength: [10, 'Description must be at least 10 characters'],
+      minlength: [2, 'Description must be at least 2 characters'],
     },
     outcome: {
       type: String,
       required: [true, 'Outcome is required'],
       trim: true,
-      minlength: [10, 'Outcome must be at least 10 characters'],
+      minlength: [2, 'Outcome must be at least 2 characters'],
     },
     status: {
       type: String,

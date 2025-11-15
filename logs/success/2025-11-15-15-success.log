@@ -1,0 +1,615 @@
+15/11/2025 09:00:18 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 0.992 ms
+15/11/2025 09:00:18 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 9.433 ms
+15/11/2025 09:00:18 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.163 ms
+15/11/2025 09:00:18 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.073 ms
+15/11/2025 09:00:19 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 92.203 ms
+15/11/2025 09:00:19 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 96.070 ms
+15/11/2025 09:00:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.492 ms
+15/11/2025 09:00:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.239 ms
+15/11/2025 09:00:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 200 - 115.519 ms
+15/11/2025 09:00:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 98.302 ms
+15/11/2025 09:00:59 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.067 ms
+15/11/2025 09:01:19 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.053 ms
+15/11/2025 09:02:16 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:02:18 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:02:18 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:02:18 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:02:19 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:02:19 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:02:19 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:02:19 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:02:19 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:02:19 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:02:19 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:02:19 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:02:27 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:02:32 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:02:32 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:02:32 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:02:33 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:02:33 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:02:33 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:02:33 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:02:33 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:02:33 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:02:33 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:02:33 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:02:38 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 1.061 ms
+15/11/2025 09:02:45 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:02:46 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:02:46 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:02:46 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:02:46 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:02:46 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:02:48 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:02:49 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:02:49 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:02:49 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:02:49 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:02:50 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:02:50 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:02:50 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:02:50 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:02:50 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:02:50 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:02:50 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:02:52 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:02:52 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:02:52 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:02:52 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:02:53 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:02:53 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:02:53 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:02:53 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:02:53 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:02:53 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:02:53 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:02:53 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:03:00 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:03:02 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 1.054 ms
+15/11/2025 09:03:02 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:03:02 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:03:02 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:03:02 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:03:02 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:08 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:10 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:10 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:10 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:10 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:11 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:11 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:11 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:11 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:11 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:11 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:11 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:11 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:14 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:15 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:15 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:15 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:16 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:16 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:16 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:16 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:16 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:16 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:16 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:16 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:21 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:23 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:24 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:24 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:24 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:25 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:25 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:25 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:25 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:25 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:25 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:25 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:25 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:28 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:28 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:28 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:28 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:30 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:32 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:34 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:34 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:34 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:34 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:34 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:36 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:37 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:37 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:37 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:37 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:37 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:43 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:45 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:45 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:45 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:46 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:46 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:46 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:46 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:46 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:46 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:46 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:46 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:50 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:52 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:07:54 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:07:54 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:07:54 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:07:54 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:07:54 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:07:58 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:00 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:08:00 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:08:00 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:08:00 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:08:00 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:08:04 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:08 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:10 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:14 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:08:14 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:08:14 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:08:15 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:08:15 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:08:15 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:08:15 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:08:15 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:08:15 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:08:15 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:08:15 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:08:19 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:21 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:08:22 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:08:22 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:08:22 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:08:22 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:08:22 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:09:49 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 2.131 ms
+15/11/2025 09:09:49 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 105.934 ms
+15/11/2025 09:09:49 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.218 ms
+15/11/2025 09:09:50 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 200 - 149.440 ms
+15/11/2025 09:09:50 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 108.100 ms
+15/11/2025 09:09:50 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 113.741 ms
+15/11/2025 09:09:50 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 200 - 7.698 ms
+15/11/2025 09:09:50 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 200 - 14.686 ms
+15/11/2025 09:09:52 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 93.068 ms
+15/11/2025 09:09:52 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 95.011 ms
+15/11/2025 09:09:54 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.153 ms
+15/11/2025 09:09:54 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 95.198 ms
+15/11/2025 09:09:54 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 100.137 ms
+15/11/2025 09:09:56 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.273 ms
+15/11/2025 09:09:56 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 102.436 ms
+15/11/2025 09:09:56 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 105.467 ms
+15/11/2025 09:10:17 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.297 ms
+15/11/2025 09:10:31 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.106 ms
+15/11/2025 09:10:31 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.056 ms
+15/11/2025 09:10:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 100.970 ms
+15/11/2025 09:10:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 91.632 ms
+15/11/2025 09:10:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.120 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.155 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.344 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.110 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 95.414 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 94.087 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 93.791 ms
+15/11/2025 09:11:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 92.746 ms
+15/11/2025 09:11:09 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 115.831 ms
+15/11/2025 09:11:09 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 102.030 ms
+15/11/2025 09:11:14 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.092 ms
+15/11/2025 09:11:26 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.066 ms
+15/11/2025 09:11:26 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 49.596 ms
+15/11/2025 09:11:26 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.069 ms
+15/11/2025 09:11:26 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 92.240 ms
+15/11/2025 09:11:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.085 ms
+15/11/2025 09:11:45 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.110 ms
+15/11/2025 09:11:45 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 100.355 ms
+15/11/2025 09:11:45 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.251 ms
+15/11/2025 09:11:45 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 99.391 ms
+15/11/2025 09:11:48 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 95.543 ms
+15/11/2025 09:11:48 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 93.852 ms
+15/11/2025 09:11:58 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.464 ms
+15/11/2025 09:11:59 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.073 ms
+15/11/2025 09:11:59 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 93.661 ms
+15/11/2025 09:11:59 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 92.894 ms
+15/11/2025 09:12:02 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.064 ms
+15/11/2025 09:12:12 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.145 ms
+15/11/2025 09:12:12 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.058 ms
+15/11/2025 09:12:12 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 47.456 ms
+15/11/2025 09:12:13 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 92.763 ms
+15/11/2025 09:12:21 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.074 ms
+15/11/2025 09:12:41 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.132 ms
+15/11/2025 09:12:41 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.098 ms
+15/11/2025 09:12:42 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 101.841 ms
+15/11/2025 09:12:42 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 375.279 ms
+15/11/2025 09:12:44 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 97.709 ms
+15/11/2025 09:12:44 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 294.243 ms
+15/11/2025 09:12:46 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 103.988 ms
+15/11/2025 09:12:46 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 91.525 ms
+15/11/2025 09:12:47 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.150 ms
+15/11/2025 09:12:48 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 97.213 ms
+15/11/2025 09:12:48 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.117 ms
+15/11/2025 09:12:48 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 92.343 ms
+15/11/2025 09:12:53 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.142 ms
+15/11/2025 09:14:11 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:14:12 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:14:12 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:14:12 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:14:13 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:14:13 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:14:14 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:14:14 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:14:14 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:14:14 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:14:14 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:14:14 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:14:18 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:14:20 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:14:21 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:14:21 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:14:21 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:14:22 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:14:22 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:14:22 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:14:22 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:14:22 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:14:22 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:14:22 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:14:22 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:14:42 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.937 ms
+15/11/2025 09:14:42 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.088 ms
+15/11/2025 09:14:43 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 99.219 ms
+15/11/2025 09:14:43 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 254.321 ms
+15/11/2025 09:14:49 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.147 ms
+15/11/2025 09:14:49 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 150.667 ms
+15/11/2025 09:14:49 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.144 ms
+15/11/2025 09:14:49 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 106.053 ms
+15/11/2025 09:14:53 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.085 ms
+15/11/2025 09:15:00 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.292 ms
+15/11/2025 09:15:01 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.118 ms
+15/11/2025 09:15:01 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 91.394 ms
+15/11/2025 09:15:01 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 326.228 ms
+15/11/2025 09:15:07 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.143 ms
+15/11/2025 09:15:27 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.365 ms
+15/11/2025 09:15:27 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.216 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 96.034 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 272.945 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.337 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.081 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 3.933 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 4.575 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 49.180 ms
+15/11/2025 09:15:28 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 93.714 ms
+15/11/2025 09:15:34 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.130 ms
+15/11/2025 09:15:34 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.130 ms
+15/11/2025 09:15:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 103.447 ms
+15/11/2025 09:15:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 116.716 ms
+15/11/2025 09:15:36 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 96.800 ms
+15/11/2025 09:15:36 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 94.956 ms
+15/11/2025 09:15:40 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.206 ms
+15/11/2025 09:15:40 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.171 ms
+15/11/2025 09:15:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 94.079 ms
+15/11/2025 09:15:41 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 563.955 ms
+15/11/2025 09:15:41 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 0.907 ms
+15/11/2025 09:15:41 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 2.340 ms
+15/11/2025 09:15:51 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.089 ms
+15/11/2025 09:16:01 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.060 ms
+15/11/2025 09:16:31 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.132 ms
+15/11/2025 09:16:31 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.126 ms
+15/11/2025 09:16:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 97.509 ms
+15/11/2025 09:16:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 97.764 ms
+15/11/2025 09:16:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 100.918 ms
+15/11/2025 09:16:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 97.561 ms
+15/11/2025 09:16:35 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 95.668 ms
+15/11/2025 09:16:35 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 102.039 ms
+15/11/2025 09:16:36 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 97.786 ms
+15/11/2025 09:16:36 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 94.862 ms
+15/11/2025 09:16:44 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.065 ms
+15/11/2025 09:16:44 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/insights 201 - 88.951 ms
+15/11/2025 09:16:51 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights/691844fca2be500fedbc900e 204 - 0.069 ms
+15/11/2025 09:16:51 [nrb-nayon] INFO: 127.0.0.1 - PATCH /api/v1/insights/691844fca2be500fedbc900e 200 - 58.876 ms
+15/11/2025 09:17:09 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights/691844fca2be500fedbc900e 204 - 0.086 ms
+15/11/2025 09:17:10 [nrb-nayon] INFO: 127.0.0.1 - PATCH /api/v1/insights/691844fca2be500fedbc900e 200 - 50.881 ms
+15/11/2025 09:17:13 [nrb-nayon] INFO: 127.0.0.1 - DELETE /api/v1/insights/691844fca2be500fedbc900e 200 - 53.474 ms
+15/11/2025 09:17:21 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.114 ms
+15/11/2025 09:17:21 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 62.558 ms
+15/11/2025 09:17:21 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 64.423 ms
+15/11/2025 09:19:12 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.119 ms
+15/11/2025 09:19:12 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.091 ms
+15/11/2025 09:19:13 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 50.270 ms
+15/11/2025 09:19:13 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 102.324 ms
+15/11/2025 09:19:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.120 ms
+15/11/2025 09:19:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.067 ms
+15/11/2025 09:19:22 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 337.890 ms
+15/11/2025 09:19:22 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 371.646 ms
+15/11/2025 09:19:34 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.092 ms
+15/11/2025 09:19:34 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.131 ms
+15/11/2025 09:19:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 54.335 ms
+15/11/2025 09:19:34 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 96.846 ms
+15/11/2025 09:20:02 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.129 ms
+15/11/2025 09:20:02 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.070 ms
+15/11/2025 09:20:03 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 46.597 ms
+15/11/2025 09:20:03 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 96.064 ms
+15/11/2025 09:20:32 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.099 ms
+15/11/2025 09:20:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 47.416 ms
+15/11/2025 09:20:32 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.097 ms
+15/11/2025 09:20:32 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 116.523 ms
+15/11/2025 09:20:40 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.099 ms
+15/11/2025 09:20:40 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.119 ms
+15/11/2025 09:20:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 49.155 ms
+15/11/2025 09:20:41 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 102.537 ms
+15/11/2025 09:22:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 2.380 ms
+15/11/2025 09:22:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.091 ms
+15/11/2025 09:22:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 132.136 ms
+15/11/2025 09:22:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 98.715 ms
+15/11/2025 09:22:23 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 28.595 ms
+15/11/2025 09:22:23 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 15.126 ms
+15/11/2025 09:23:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.479 ms
+15/11/2025 09:23:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.061 ms
+15/11/2025 09:23:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 62.441 ms
+15/11/2025 09:23:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 46.722 ms
+15/11/2025 09:24:19 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.122 ms
+15/11/2025 09:24:20 [nrb-nayon] INFO: 127.0.0.1 - PATCH /api/v1/contact 200 - 173.709 ms
+15/11/2025 09:24:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.066 ms
+15/11/2025 09:24:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.037 ms
+15/11/2025 09:24:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 200 - 94.518 ms
+15/11/2025 09:24:40 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 91.825 ms
+15/11/2025 09:24:41 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.112 ms
+15/11/2025 09:24:41 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.074 ms
+15/11/2025 09:24:41 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 200 - 47.689 ms
+15/11/2025 09:24:41 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 46.195 ms
+15/11/2025 09:24:46 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.116 ms
+15/11/2025 09:24:46 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.100 ms
+15/11/2025 09:24:47 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 97.185 ms
+15/11/2025 09:24:47 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 96.476 ms
+15/11/2025 09:25:40 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.121 ms
+15/11/2025 09:25:41 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 107.537 ms
+15/11/2025 09:25:42 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/user/me 204 - 0.157 ms
+15/11/2025 09:25:42 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/user/me 304 - 54.855 ms
+15/11/2025 09:25:43 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.180 ms
+15/11/2025 09:25:43 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 96.505 ms
+15/11/2025 09:25:44 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 4.462 ms
+15/11/2025 09:25:44 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 7.904 ms
+15/11/2025 09:32:26 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.722 ms
+15/11/2025 09:32:26 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.249 ms
+15/11/2025 09:32:27 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 148.818 ms
+15/11/2025 09:32:27 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 98.004 ms
+15/11/2025 09:32:27 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 200 - 19.393 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 204 - 0.312 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 204 - 0.150 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 200 - 67.040 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 304 - 48.261 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_10_18_121021-1763025629980-974740039.png 200 - 2.623 ms
+15/11/2025 09:32:44 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 304 - 0.673 ms
+15/11/2025 09:32:51 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.089 ms
+15/11/2025 09:32:51 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.041 ms
+15/11/2025 09:32:51 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 93.842 ms
+15/11/2025 09:32:51 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 93.075 ms
+15/11/2025 09:34:10 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys 204 - 0.090 ms
+15/11/2025 09:34:10 [nrb-nayon] INFO: Image size (0.01MB) below threshold, skipping optimization
+15/11/2025 09:34:10 [nrb-nayon] INFO: Image size (0.00MB) below threshold, skipping optimization
+15/11/2025 09:34:10 [nrb-nayon] INFO: File upload completed successfully
+15/11/2025 09:34:10 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/attorneys 201 - 178.519 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 304 - 0.886 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/business-1763199250427-543946133.png 200 - 12.237 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.121 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.169 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 200 - 97.479 ms
+15/11/2025 09:34:11 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 91.923 ms
+15/11/2025 09:34:20 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys/69184912a2be500fedbc9048 204 - 0.051 ms
+15/11/2025 09:34:20 [nrb-nayon] INFO: 127.0.0.1 - DELETE /api/v1/attorneys/69184912a2be500fedbc9048 200 - 50.824 ms
+15/11/2025 09:35:06 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.102 ms
+15/11/2025 09:35:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 51.386 ms
+15/11/2025 09:35:06 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 50.371 ms
+15/11/2025 09:35:07 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.098 ms
+15/11/2025 09:35:07 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/insights 204 - 0.145 ms
+15/11/2025 09:35:07 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 100.890 ms
+15/11/2025 09:35:07 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/insights 304 - 94.436 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_10_18_121021-1763025629980-974740039.png 304 - 0.629 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 304 - 0.517 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.056 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=admin 204 - 0.067 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 95.202 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=admin 304 - 92.667 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/attraction-1763197192352-89733773.png 304 - 0.400 ms
+15/11/2025 09:35:08 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 0.768 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.051 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/contact 204 - 0.056 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 46.211 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/qna-1763197192350-848357024.png 304 - 0.435 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.052 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.067 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/contact 304 - 46.265 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 200 - 95.629 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 304 - 1.252 ms
+15/11/2025 09:35:23 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 102.228 ms
+15/11/2025 09:35:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 204 - 0.114 ms
+15/11/2025 09:35:39 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 204 - 0.144 ms
+15/11/2025 09:35:39 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 304 - 48.757 ms
+15/11/2025 09:35:39 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys/6915a2de0d55d1a1f0236b6f 304 - 45.765 ms
+15/11/2025 09:35:39 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_10_18_121021-1763025629980-974740039.png 304 - 0.336 ms
+15/11/2025 09:36:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.110 ms
+15/11/2025 09:36:22 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.048 ms
+15/11/2025 09:36:22 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 99.021 ms
+15/11/2025 09:36:22 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 90.735 ms
+15/11/2025 09:36:25 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 93.016 ms
+15/11/2025 09:36:25 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 91.598 ms
+15/11/2025 09:37:03 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys 204 - 0.060 ms
+15/11/2025 09:37:04 [nrb-nayon] INFO: Image size (0.00MB) below threshold, skipping optimization
+15/11/2025 09:37:04 [nrb-nayon] INFO: Image size (1.32MB) below threshold, skipping optimization
+15/11/2025 09:37:04 [nrb-nayon] INFO: File upload completed successfully
+15/11/2025 09:37:14 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys 204 - 0.047 ms
+15/11/2025 09:37:14 [nrb-nayon] INFO: Image size (0.00MB) below threshold, skipping optimization
+15/11/2025 09:37:14 [nrb-nayon] INFO: Image size (1.32MB) below threshold, skipping optimization
+15/11/2025 09:37:14 [nrb-nayon] INFO: File upload completed successfully
+15/11/2025 09:37:40 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:37:41 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:37:46 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:37:47 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:37:47 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:37:47 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:37:47 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:37:47 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:37:51 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:37:54 [nrb-nayon] INFO: Redis disabled for local development
+15/11/2025 09:37:55 [nrb-nayon] INFO: [32m🚀 Database connected successfully[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [36m🌱 Starting database seeding...[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [33m[39m
+[33m╔═════════════════════════════════════╗[39m
+[33m║  🚀 Server launched successfully!   ║[39m
+[33m║  🌐 Running on: 127.0.0.1:5000      ║[39m
+[33m╚═════════════════════════════════════╝[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [33mPractice Area (Criminal Defense) already exists.[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [33mPractice Area (White Collar Defense) already exists.[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [33mAttorney already exists.[39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: [32m✔ Database seeding completed successfully![39m
+15/11/2025 09:37:55 [nrb-nayon] INFO: Analytics cleanup job scheduled
+15/11/2025 09:37:55 [nrb-nayon] INFO: Unverified users cleanup job scheduled (every 6 hours)
+15/11/2025 09:37:55 [nrb-nayon] INFO: All cleanup and notification cron jobs started
+15/11/2025 09:37:55 [nrb-nayon] WARN: Redis connection failed - some features may not work
+15/11/2025 09:37:56 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys 204 - 1.527 ms
+15/11/2025 09:37:57 [nrb-nayon] INFO: Image size (0.00MB) below threshold, skipping optimization
+15/11/2025 09:37:57 [nrb-nayon] INFO: Image size (1.32MB) below threshold, skipping optimization
+15/11/2025 09:37:57 [nrb-nayon] INFO: File upload completed successfully
+15/11/2025 09:37:57 [nrb-nayon] INFO: 127.0.0.1 - POST /api/v1/attorneys 201 - 149.013 ms
+15/11/2025 09:37:57 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/Screenshot_2025_11_11_135953-1763025629979-271881080.png 304 - 1.394 ms
+15/11/2025 09:37:57 [nrb-nayon] INFO: 127.0.0.1 - GET /uploads/images/attorneys/hiking-1763199477060-450036513.png 200 - 4.666 ms
+15/11/2025 09:37:57 [nrb-nayon] INFO: 127.0.0.1 - OPTIONS /api/v1/attorneys?role=member 204 - 0.118 ms
+15/11/2025 09:37:58 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 200 - 105.026 ms
+15/11/2025 09:37:58 [nrb-nayon] INFO: 127.0.0.1 - GET /api/v1/attorneys?role=member 304 - 99.806 ms

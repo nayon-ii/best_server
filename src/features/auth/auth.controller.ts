@@ -14,15 +14,15 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
   // Set cookies for accessToken and refreshToken
   res.cookie("accessToken", result.accessToken, {
     secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
+    // httpOnly: true,
+    // sameSite: "strict",
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
 
   res.cookie("refreshToken", result.refreshToken, {
     secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
+    // httpOnly: true,
+    // sameSite: "strict",
     maxAge: 365 * 24 * 60 * 60 * 1000, // 365 days
   });
 
@@ -48,15 +48,15 @@ const verifyEmail = catchAsync(async (req: Request, res: Response) => {
   // Set cookies for accessToken and refreshToken
   res.cookie("accessToken", result.accessToken, {
     secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
+    // httpOnly: true,
+    // sameSite: "strict",
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
 
   res.cookie("refreshToken", result.refreshToken, {
     secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
+    // httpOnly: true,
+    // sameSite: "strict",
     maxAge: 365 * 24 * 60 * 60 * 1000, // 365 days
   });
 
@@ -139,8 +139,8 @@ const newAccessToken = catchAsync(async (req: Request, res: Response) => {
   // Set new accessToken in cookie
   res.cookie("accessToken", result.accessToken, {
     secure: config.node_env === "production",
-    httpOnly: true,
-    sameSite: "strict",
+    // httpOnly: true,
+    // sameSite: "strict",
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
 
